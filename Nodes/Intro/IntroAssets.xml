@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="introAssets" 
+          name="CreepiX Asset PC" 
+          ip="95.234.75.12"
+          security="0"
+          allowsDefaultBootModule="false"
+          icon="DLCServer" 
+          type="4" > 
+		  
+		  <adminPass pass="gateway" />
+		  
+		  <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554</ports>
+		  
+		  <portRemap>21=1,1433=14535,443=99999</portRemap>
+		  
+		  <portsForCrack val="1" />
+		  
+		  <proxy time="0.5" />
+		  
+		  <firewall level="5" solution="GATES" additionalTime="1" />
+		  
+		  <admin type="progress" />
+		  
+		  <dlink target="playerComp" />
+		  
+  <file path="bin" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+		  
+  <file path="sys" name="White-Theme.sys">#WHITE_THEME#</file>
+  <file path="sys" name="Green-Theme.sys">#GREEN_THEME#</file>
+  <file path="sys" name="Yellow-Theme.sys">#YELLOW_THEME#</file>
+  <file path="sys" name="Teal-Theme.sys">#TEAL_THEME#</file>
+  <file path="sys" name="Purple-Theme.sys">#PURPLE_THEME#</file>
+  <file path="sys" name="Mint-Theme.sys">#MINT_THEME#</file>
+  
+  </Computer>

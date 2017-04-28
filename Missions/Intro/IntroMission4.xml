@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="introMission4" activeCheck="true">
+  <goals>
+    <goal type="filedownload" target="mainClock" file="Clock.exe" path="home/Work/Backups" />
+	<goal type="delay" time="2.5"/>
+  </goals>
+  <missionStart val="5" suppress="false">changeSongDLC</missionStart>
+  <missionEnd val="3">changeSongDLC</missionEnd>
+  <nextMission>Missions/Intro/IntroMission5.xml</nextMission>
+  <email>
+    <sender>CreepiX</sender>
+    <subject>The Final Task</subject>
+    <body>
+Find the clock.
+</body>
+    <attachments>
+	<link comp="Clock1" />
+    </attachments>
+  </email>
+</mission>

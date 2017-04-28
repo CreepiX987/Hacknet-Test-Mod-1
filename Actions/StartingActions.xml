@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <AddAsset FileName="Test.bat" FileContents="#BINARY#" TargetComp="playerComp" TargetFolderpath="bin" />    
+    <AddAsset FileName="RTSPCrack.exe" FileContents="#RTSP_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />    
+  </Instantly>
+
+</ConditionalActions>

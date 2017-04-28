@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mainClock" 
+          name="Clock Gateway 2" 
+          ip="355.21.34.6"
+          security="0"
+          allowsDefaultBootModule="false"
+          icon="DLCServer" 
+          type="4" >
+		  
+		  <admin type="progress" />
+		  
+		  <adminPass pass="thefinalpass" />
+		  
+		  <ports>443, 1433, 554</ports>
+		  
+		  <portsForCrack val="3" />
+		  
+		  <portRemap>1433=1337,554=0</portRemap>
+		  
+		  <trace time="45" />
+		  
+		  <proxy time="1" />
+		  
+		  <CustomConnectDisplayDaemon />
+		  
+		  <file path="home/Work/Backups" name="Clock.exe">#CLOCK_PROGRAM#</file>
+   
+</Computer>

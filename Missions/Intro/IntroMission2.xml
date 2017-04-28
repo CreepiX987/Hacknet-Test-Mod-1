@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="introMission2" activeCheck="true">
+  <goals>
+    <goal type="filedownload" target="introAssets" file="SQL_MemCorrupt.exe" path="bin"/>
+	<goal type="delay" time="2.5"/>
+  </goals>
+  <nextMission>Missions/Intro/IntroMission3.xml</nextMission>
+  <email>
+    <sender>CreepiX</sender>
+    <subject>Making Progress</subject>
+    <body>
+Good.
+	
+Now go get yourself some hacking software.
+    </body>
+    <attachments>
+      <link comp="introAssets" />
+    </attachments>
+  </email>
+</mission>

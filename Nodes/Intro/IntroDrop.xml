@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="introDrop" 
+          name="CreepiX Drop Server" 
+          ip="34.143.46.1"
+          security="0"
+          allowsDefaultBootModule="true"
+          icon="PacificAir" 
+          type="4" >
+		  
+		  <admin type="progress" />
+		  
+		  <adminPass pass="neveragain" />
+		  
+		  <ports>22</ports>
+		  
+		  <portsForCrack val="1" />
+		  
+		  <uploadServerDaemon name="Uploader" folder="Drop"
+                      needsAuth="false" color="204,116,212"/>
+		  
+</Computer>

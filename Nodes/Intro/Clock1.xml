@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Clock1" 
+          name="Clock Gateway 1" 
+          ip="111.222.333.441"
+          security="0"
+          allowsDefaultBootModule="false"
+          icon="DLCServer" 
+          type="4" >
+		  
+		  <admin type="progress" />
+		  
+		  <adminPass pass="coelwashere" />
+		  
+		  <ports>22, 1433, 554</ports>
+		  
+		  <portsForCrack val="2" />
+		  
+		  <portRemap>1433=1337,554=0</portRemap>
+		  
+		  <trace time="30" />
+		  
+		  <proxy time="0.75" />
+		  
+		  <dlink target="mainClock" />
+		  
+		  <CustomConnectDisplayDaemon />
+		  
+   <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+   
+</Computer>

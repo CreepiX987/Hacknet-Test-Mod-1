@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="introMission3" activeCheck="true">
+  <goals>
+    <goal type="fileupload" target="playerComp" file="RTSPCrack.exe" path="bin" 
+	destTarget="introDrop" destPath="Drop/Uploads" />
+	<goal type="delay" time="2.5"/>
+  </goals>
+  <nextMission>Missions/Intro/IntroMission4.xml</nextMission>
+  <email>
+    <sender>CreepiX</sender>
+    <subject>Progress Continues</subject>
+    <body>
+Great! Now.
+
+Upload your RTSP hacking software to our drop server.
+    </body>
+    <attachments>
+      <link comp="introDrop" />
+	  <link comp="playerComp" />
+    </attachments>
+  </email>
+</mission>

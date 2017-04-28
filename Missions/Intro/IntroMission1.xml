@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="introMission1" activeCheck="true">
+  <goals>
+    <goal type="filedeletion" target="playerComp" file="Test.bat" path="bin" />
+	<goal type="delay" time="2.5"/>
+  </goals>
+  <nextMission>Missions/Intro/IntroMission2.xml</nextMission>
+  <email>
+    <sender>CreepiX</sender>
+    <subject>Welcome</subject>
+    <body>Delete Test.bat in your PC to continue.
+    </body>
+    <attachments>
+	<link comp="playerComp" />
+    </attachments>
+  </email>
+</mission>

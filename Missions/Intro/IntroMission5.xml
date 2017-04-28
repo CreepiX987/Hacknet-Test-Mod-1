@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="introMission5">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>CreepiX</sender>
+    <subject>Thanks for playing!</subject>
+    <body>
+This is a little mod I made for testing stuff.
+In the next one I'll include a faction.
+For now, I hope that you enjoyed this and discovered that SSL can be broken using RTSP!
+See you next time!
+    </body>
+    <attachments>
+      <note title="Note">such note very wow</note>
+    </attachments>
+  </email>
+</mission>
